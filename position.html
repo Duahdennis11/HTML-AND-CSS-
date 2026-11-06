@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Practice</title>
+</head>
+
+<body style="
+    height: 3020px;
+    padding-top: 62px;
+    padding-left: 82px;
+  ">
+    <div style="
+      background-color: rgb(16, 14, 14);
+      color: #fff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 52px;
+      z-index: 110;
+    ">header</div>
+
+    <div style="
+      background-color: rgb(2, 141, 2);
+      color: rgb(252, 246, 246);
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      top: 52px;
+      width: 74px;
+    ">
+        sidebar
+        <div style="
+        position: absolute;
+        background-color: rgb(249, 8, 8);
+        color: rgb(242, 235, 235);
+        top: 0;
+        right: 0;
+      ">
+            Five
+        </div>
+    </div>
+
+    <div style="
+      position: absolute;
+      background-color: rgb(250, 240, 240);
+      color: rgb(247, 230, 230);
+      top: 62px;
+      right: 12px;
+    ">
+        absolute
+    </div>
+
+    <div style="
+      background-color: rgb(166, 216, 233);
+      height: 210px;
+      width: 210px;
+      position: static;
+    ">div 1</div>
+
+    <div style="
+      background-color: rgb(253, 192, 201);
+      height: 210px;
+      width: 210px;
+      position: relative;
+    ">
+        div 2
+        <div style="
+        position: absolute;
+        background-color: rgb(21, 18, 18);
+        color: rgb(253, 248, 248);
+        bottom: 12px;
+        right: 12px;
+      ">
+            5:00
+        </div>
+    </div>
+
+</body>
+
+</html>
